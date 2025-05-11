@@ -16,7 +16,7 @@ text {
   fill: #000;
 }
 .mask [fill="black"] {
-  height: 13px;
+  height: 8px;
 }
 .svg-mobile-wrapper {
   display: none;
@@ -30,5 +30,8 @@ text {
     text {
       font-size: 22px;
     }
+  }
+  .mask [fill="black"] {
+    height: 13px;
   }
 }
