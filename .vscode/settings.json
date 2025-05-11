@@ -1,0 +1,12 @@
+{
+  "files.eol": "\n",
+  "files.autoGuessEncoding": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "css.format.newlineBetweenRules": false,
+  "[postcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "css.format.newlineBetweenRules": false
+  }
+}

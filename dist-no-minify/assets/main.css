@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+text {
+  font-family: 'Arial', 'sans-serif';
+  fill: #fff;
+  font-weight: bold;
+}
+.back {
+  fill: #000;
+}
+.mask [fill="black"] {
+  height: 13px;
+}
+.svg-mobile-wrapper {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .svg-wrapper {
+    display: none;
+  }
+  .svg-mobile-wrapper {
+    display: block;
+  }
+    .svg-mobile-wrapper text {
+      font-size: 22px;
+    }
+}
